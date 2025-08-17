@@ -14,7 +14,7 @@ class ExpenseModel
         timestamp:json['timestamp'],
         id: id,
         title: json['title'] ?? "Untitled",
-        amount: json['amount'],
+        amount: json['amount'] ,
         month: json['month']
     );
 
